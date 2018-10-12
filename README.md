@@ -1,2 +1,1 @@
-# MobilePay-Partnerbank
-# MobilePay-Partnerbank
+# MobilePay PartnerBank API Documentation
