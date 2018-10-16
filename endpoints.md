@@ -3,6 +3,7 @@
 ### /api/v1/products
 ---
 #### GET
+Returns all available MobilePay products.
 ##### Parameters
 
 *No parameters*
@@ -29,6 +30,7 @@
 ### /api/v1/banks/me/product-statistics
 ---
 #### GET
+Returns number of customers who use particular products.
 ##### Parameters
 
 *No parameters*
@@ -44,9 +46,9 @@
 ```json
 {
 	"products": [
-    	{
-        	"Product": "MyShop",
-            "CustomersCount": 1234
+        {
+        	"product": "MyShop",
+            "customersCount": 1234
         }
     ]
 }
@@ -54,11 +56,12 @@
 ### /api/v1/banks/me/customers
 ---
 #### GET
+Returns a list of all customers or customers who use given product.
 ##### Parameters
 
 | Name | Located in | Description | Required | Schema |
 | ---- | ---------- | ----------- | -------- | ---- |
-| product | query |  | No | string |
+| product | query | MobilePay product eg "MyShop" | No | string |
 | offset | query |  | No | integer |
 | limit | query |  | No | integer |
 
@@ -83,11 +86,12 @@
 ### /api/v1/banks/me/customers/{registryNumber}/products
 ---
 #### GET
+Returns a list of products used by given customer.
 ##### Parameters
 
 | Name | Located in | Description | Required | Schema |
 | ---- | ---------- | ----------- | -------- | ---- |
-| registryNumber | path |  | Yes | string |
+| registryNumber | path | CVR in Denmark, VAT in Finland | Yes | string |
 
 ##### Responses
 
@@ -110,14 +114,15 @@
 ### /api/v1/banks/me/customers/{registryNumber}/transactions
 ---
 #### GET
+Returns aggregated data about transactions (grouped by product) for given customer.
 ##### Parameters
 
 | Name | Located in | Description | Required | Schema |
 | ---- | ---------- | ----------- | -------- | ---- |
-| registryNumber | path |  | Yes | string |
+| registryNumber | path | CVR in Denmark, VAT in Finland | Yes | string |
 | from | query |  | Yes | dateTime |
 | to | query |  | Yes | dateTime |
-| product | query |  | No | string |
+| product | query | MobilePay product eg "MyShop" | No | string |
 
 ##### Responses
 
@@ -133,8 +138,8 @@
 	"transactions": [
     	{
         	"product": "MyShop",
-            "Count": 123,
-            "Volume": 123.45,
+            "count": 123,
+            "volume": 123.45,
             "currency": "DKK"
         }
     ]
@@ -143,13 +148,14 @@
 ### /api/v1/banks/me/transactions
 ---
 #### GET
+Returns aggregated data about all transactions (grouped by product).
 ##### Parameters
 
 | Name | Located in | Description | Required | Schema |
 | ---- | ---------- | ----------- | -------- | ---- |
 | from | query |  | Yes | dateTime |
 | to | query |  | Yes | dateTime |
-| product | query |  | No | string |
+| product | query | MobilePay product eg "MyShop" | No | string |
 
 ##### Responses
 
@@ -165,8 +171,8 @@
 	"transactions": [
     	{
         	"product": "MyShop",
-            "Count": 123,
-            "Volume": 123.45,
+            "count": 123,
+            "volume": 123.45,
             "currency": "DKK"
         }
     ]
