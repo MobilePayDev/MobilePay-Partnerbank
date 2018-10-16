@@ -5,8 +5,7 @@
 #### GET
 ##### Parameters
 
-| Name | Located in | Description | Required | Schema |
-| ---- | ---------- | ----------- | -------- | ---- |
+*No parameters*
 
 ##### Responses
 
@@ -20,7 +19,7 @@
 ```json
 {
 	"products": [
-    	{
+		{
         	"name": "MyShop"
     	}
 	]
@@ -32,8 +31,7 @@
 #### GET
 ##### Parameters
 
-| Name | Located in | Description | Required | Schema |
-| ---- | ---------- | ----------- | -------- | ---- |
+*No parameters*
 
 ##### Responses
 
@@ -60,7 +58,7 @@
 
 | Name | Located in | Description | Required | Schema |
 | ---- | ---------- | ----------- | -------- | ---- |
-| product | query |  | No | integer |
+| product | query |  | No | string |
 | offset | query |  | No | integer |
 | limit | query |  | No | integer |
 
