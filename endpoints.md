@@ -20,8 +20,8 @@
 {
 	"products": [
 		{
-        	"name": "MyShop"
-    	}
+			"name": "MyShop"
+		}
 	]
 }
 ```
