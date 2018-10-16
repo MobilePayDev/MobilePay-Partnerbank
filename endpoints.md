@@ -19,11 +19,11 @@ Returns all available MobilePay products.
 *Example:*
 ```json
 {
-	"products": [
-		{
-			"name": "MyShop"
-		}
-	]
+    "products": [
+        {
+            "name": "MyShop"
+        }
+    ]
 }
 ```
 ## Banks
@@ -45,9 +45,9 @@ Returns number of customers who use particular products.
 *Example:*
 ```json
 {
-	"products": [
+    "products": [
         {
-        	"product": "MyShop",
+            "product": "MyShop",
             "customersCount": 1234
         }
     ]
@@ -76,9 +76,9 @@ Returns a list of all customers or customers who use given product.
 *Example:*
 ```json
 {
-	"items": [
-    	{
-        	"registryNumber": "ABC1234"
+    "items": [
+        {
+            "registryNumber": "ABC1234"
         }
     ]
 }
@@ -104,9 +104,9 @@ Returns a list of products used by given customer.
 *Example:*
 ```json
 {
-	"products": [
-    	{
-        	"name": "MyShop"
+    "products": [
+        {
+            "name": "MyShop"
         }
     ]
 }
@@ -135,9 +135,9 @@ Returns aggregated data about transactions (grouped by product) for given custom
 *Example:*
 ```json
 {
-	"transactions": [
-    	{
-        	"product": "MyShop",
+    "transactions": [
+        {
+            "product": "MyShop",
             "count": 123,
             "volume": 123.45,
             "currency": "DKK"
@@ -168,9 +168,9 @@ Returns aggregated data about all transactions (grouped by product).
 *Example:*
 ```json
 {
-	"transactions": [
-    	{
-        	"product": "MyShop",
+    "transactions": [
+        {
+            "product": "MyShop",
             "count": 123,
             "volume": 123.45,
             "currency": "DKK"
