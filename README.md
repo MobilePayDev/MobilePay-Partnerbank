@@ -27,3 +27,6 @@ To specify which bank you are representing during this call, add the Bank-Identi
 
 ## API limitations
 - The provided data is not real-time. The delay can be up to 48h.
+
+## Endpoints
+- [Technical documentation of all endpoints](endpoints.md)
