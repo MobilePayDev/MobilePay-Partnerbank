@@ -7,9 +7,10 @@ This document describes the call structure to query PartnerBank API of MobilePay
 ## Request headers
 After onboarding to https://developer.mobilepay.dk and creating an App, use the given Client-Id and Client-Secret as request headers when calling the API.
 
-To specify which bank you are representing during this call, add the Bank-Identifier-Code header. The header format is AAAABB:
+To specify which bank you are representing during this call, add the Bank-Identifier-Code header. The header format is AAAABBCC:
 - AAAA - identifies a bank;
-- BB - identifies the country of the bank.
+- BB - identifies the country of the bank;
+- CC - location code for head office.
 
 | Header Key           | Description                                                         |
 | -------------------  | ------------------------------------------------------------------- |
