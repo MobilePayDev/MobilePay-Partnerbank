@@ -1,5 +1,5 @@
 # MobilePay PartnerBank API Documentation
-This document describes the call structure to query PartnerBank API of MobilePay. The API is designed to be called by an integrator (ex. data center), representing a bank. The focal purpose of the API is to provide partnerbanks with data in order to monitor if their merchants are using MobilePay. 
+This document describes the call structure to query PartnerBank API of MobilePay. The API is designed to be called by an integrator (ex. data center), representing a bank. The focal purpose of the API is to provide partnerbanks with data in order to monitor if and how their merchants are using MobilePay. 
 
 This document is meant to be used by the developers integrating into the API.
 If you have any questions, write to developer@mobilepay.dk 
