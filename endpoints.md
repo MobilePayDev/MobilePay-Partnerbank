@@ -65,8 +65,8 @@ Returns a list of all customers or customers who use given product.
 | Name | Located in | Description | Required | Schema |
 | ---- | ---------- | ----------- | -------- | ---- |
 | product | query | MobilePay product eg "MyShop" | No | string |
-| offset | query |  | No | integer |
-| limit | query |  | No | integer |
+| offset | query | Paging offset | No | integer |
+| limit | query | Page limit | No | integer |
 
 ##### Responses
 
@@ -123,8 +123,8 @@ Returns aggregated data about transactions (grouped by product) for given custom
 | Name | Located in | Description | Required | Schema |
 | ---- | ---------- | ----------- | -------- | ---- |
 | registryNumber | path | CVR in Denmark, VAT in Finland | Yes | string |
-| from | query |  | Yes | dateTime |
-| to | query |  | Yes | dateTime |
+| from | query | Date in format "yyyy-MM-dd" | Yes | dateTime |
+| to | query | Date in format "yyyy-MM-dd" | Yes | dateTime |
 | product | query | MobilePay product eg "MyShop" | No | string |
 
 ##### Responses
@@ -156,9 +156,9 @@ Returns aggregated data about all transactions (grouped by product).
 
 | Name | Located in | Description | Required | Schema |
 | ---- | ---------- | ----------- | -------- | ---- |
-| from | query |  | Yes | dateTime |
-| to | query |  | Yes | dateTime |
-| product | query | MobilePay product eg "MyShop" | No | string |
+| from | query | Date in format "yyyy-MM-dd" | Yes | dateTime |
+| to | query | Date in format "yyyy-MM-dd" | Yes | dateTime |
+| product | query | MobilePay product ex. "MyShop" | No | string |
 
 ##### Responses
 
