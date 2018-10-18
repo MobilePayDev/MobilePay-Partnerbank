@@ -6,13 +6,12 @@ If you have any questions, write to developer@mobilepay.dk
 
 ## Prerequisites
 - Integrator needs to inform about GitHub username, in order to be invited to the documentation repository with read rights
-- Integrator has been invited to https://developer.mobilepay.dk/ 
-- Integrator has created an app on https://developer.mobilepay.dk/application Make a note of your client ID and client secret. These may be needed for your application to access the API.
-
+- Integrator has been invited to the MobilePay Production Developer Portal https://developer.mobilepay.dk/ 
+- Integrator has created an app on https://developer.mobilepay.dk/application Make a note of your `X-IBM-Client-Id` and `X-IBM-Client-Secret`. These are needed for your application to access the API.
 - Integrator has subscribed to the PartnerBank API product on https://developer.mobilepay.dk/product 
 
 ## Request headers
-After onboarding to https://developer.mobilepay.dk and creating an App, use the given Client-Id and Client-Secret as request headers when calling the API. The request must contain those headers 
+After onboarding to https://developer.mobilepay.dk and creating an App, use the given `X-IBM-Client-Id` and `X-IBM-Client-Secret` as request headers when calling the API. 
 
 To specify which bank you are representing during this call, add the Bank-Identifier-Code header. The header format is AAAABBCC:
 - AAAA - identifies a bank;
