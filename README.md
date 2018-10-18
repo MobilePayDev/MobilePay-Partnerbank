@@ -1,11 +1,13 @@
 # MobilePay PartnerBank API Documentation
 This document describes the call structure to query PartnerBank API of MobilePay. The API is designed to be called by an integrator (ex. data center), representing a bank. This document is meant to be used by the developers integrating into the API.
+If you have any questions, write to developer@mobilepay.dk 
 
 ## Prerequisites
+- Integrator needs to inform about GitHub username, in order to be invited to the documentation repository with read rights
 - Integrator has been onboarded to https://developer.mobilepay.dk/ and has an App subscribed to the PartnerBank API product.
 
 ## Request headers
-After onboarding to https://developer.mobilepay.dk and creating an App, use the given Client-Id and Client-Secret as request headers when calling the API.
+After onboarding to https://developer.mobilepay.dk and creating an App, use the given Client-Id and Client-Secret as request headers when calling the API. The request must contain those headers 
 
 To specify which bank you are representing during this call, add the Bank-Identifier-Code header. The header format is AAAABBCC:
 - AAAA - identifies a bank;
