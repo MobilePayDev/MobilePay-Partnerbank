@@ -1,3 +1,6 @@
+The documentation provides an example response for each API method. The example response illustrates all attributes that are returned by that method.
+
+
 # Endpoints
 ## Products
 ### /api/v1/products
