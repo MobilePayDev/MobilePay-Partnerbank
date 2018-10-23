@@ -3,7 +3,6 @@ This document describes the call structure to query PartnerBank API of MobilePay
 
 Integrator needs to inform about GitHub username, in order to be invited to the documentation repository with read rights
 
-
 This document is meant to be used by the developers integrating into the API.
 
 ## Support
