@@ -34,7 +34,7 @@ Returns all available MobilePay products.
 ## Banks
 ### /api/v1/banks/me/product-statistics
 ---
-#### GET
+####  `GET` 
 Returns number of customers who use particular products.
 ##### Parameters
 
@@ -60,7 +60,7 @@ Returns number of customers who use particular products.
 ```
 ### /api/v1/banks/me/customers
 ---
-#### GET
+#### `GET` 
 Returns a list of all customers or customers who use given product.
 ##### Parameters
 
@@ -90,7 +90,7 @@ Returns a list of all customers or customers who use given product.
 ```
 ### /api/v1/banks/me/customers/{registryNumber}/products
 ---
-#### GET
+#### `GET` 
 Returns a list of products used by given customer.
 ##### Parameters
 
@@ -118,7 +118,7 @@ Returns a list of products used by given customer.
 ```
 ### /api/v1/banks/me/customers/{registryNumber}/transactions
 ---
-#### GET
+#### `GET` 
 Returns aggregated data about transactions (grouped by product) for given customer.
 ##### Parameters
 
@@ -152,7 +152,7 @@ Returns aggregated data about transactions (grouped by product) for given custom
 ```
 ### /api/v1/banks/me/transactions
 ---
-#### GET
+#### `GET` 
 Returns aggregated data about all transactions (grouped by product).
 ##### Parameters
 
