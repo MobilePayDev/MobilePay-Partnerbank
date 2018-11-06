@@ -1,5 +1,7 @@
 The documentation provides an example response for each API method. The example response illustrates all attributes that are returned by that method.
 
+Requests are made using a GET request. 
+
 
 # Endpoints
 ## Products
