@@ -16,13 +16,15 @@ If you have any questions, write to developer@mobilepay.dk
 
 ## Data repository
 
-| Product           | Current status                                                         |
-| -------------------  | ------------------------------------------------------------------- |
-| `MyShop`      | Data included on all merchants      |
-| `POS`  | Not in repository |
-| `Subscriptions` | Not in repository                                                        |
-| `Invoice` | Not in repository                                                        |
-| `AppSwitch` | Not in repository                                                        |
+The table shows the Products, the status and the PaymentPoint when calling the API 
+
+| Product           | Current status                                                         | PaymentPoint |
+| -------------------  | ------------------------------------------------------------------- | ------------------- |
+| `MyShop`      | Data included on all merchants      | x|
+| `POS`  | Not in repository |x |
+| `Subscriptions` | Not in repository                                                        |SubscriptionProvider |
+| `Invoice` | Not in repository                                                        |x |
+| `AppSwitch` | Not in repository                                                        |x |
 
 ## Request headers
 After onboarding to https://developer.mobilepay.dk and creating an App, use the given `X-IBM-Client-Id` and `X-IBM-Client-Secret` as request headers when calling the API. 
