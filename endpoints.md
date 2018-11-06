@@ -7,7 +7,7 @@ Requests are made using a GET request.
 ## Products
 ### /api/v1/products
 ---
-#### GET
+#### `GET` 
 Returns all available MobilePay products.
 ##### Parameters
 
