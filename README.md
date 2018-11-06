@@ -7,7 +7,10 @@ This document is meant to be used by the developers integrating into the API.
 
 ## Support
 
-If you have any questions, write to developer@mobilepay.dk 
+If you have any questions, write to DeveloperSupport at developer@mobilepay.dk 
+
+Received an error? Don’t worry! First, check your original request and try again. If you're still having problems, ask our support team for help.
+
 
 ## Prerequisites
 - Integrator has been invited to the MobilePay Production Developer Portal https://developer.mobilepay.dk/ 
