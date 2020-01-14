@@ -11,11 +11,14 @@ If you have any questions, write to DeveloperSupport at developer@mobilepay.dk
 
 Received an error? Don’t worry! First, check your original request and try again. If you're still having problems, ask our support team for help.
 
+MobilePay Sandbox Developer Portal is https://sandbox-developer.mobilepay.dk/ 
+
+Production Developer Portal is https://developer.mobilepay.dk/ 
 
 ## Prerequisites
-- Integrator has been invited to the MobilePay Production Developer Portal https://developer.mobilepay.dk/ 
-- Integrator has created an app on https://developer.mobilepay.dk/application Make a note of your `X-IBM-Client-Id` and `X-IBM-Client-Secret`. These are needed for your application to access the API.
-- Integrator has subscribed to the PartnerBank API product on https://developer.mobilepay.dk/product 
+- **Create an user:** Once you have received an invitation to the Developer Portal, then you need to register as a new user within 7 days. 
+- **Create an app:** From the developer portal, click on your e-mail in the top and choose ” My apps” at the top of the page. It shows a list of applications that the developer has created. Click the create new app button. Make a note of your `X-IBM-Client-Id` and `X-IBM-Client-Secret`. These are needed for your application to access the API.
+- **Subscribe to API:** Integrator has subscribed to the PartnerBank API product on https://developer.mobilepay.dk/product 
 
 ## Data repository
 
