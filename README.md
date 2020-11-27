@@ -29,7 +29,7 @@ The table shows the Products, the status and the PaymentPoint when calling the A
 | `MyShop`      | Data included on all merchants      | MobilePayNumber |
 | `POS`  | Not in repository |Store |
 | `Subscriptions` | Not in repository                                                        |SubscriptionProvider |
-| `Invoice` | Not in repository                                                        |x |
+| `Invoice` | Not in repository                                                        |MerchantId |
 | `AppSwitch` | Not in repository                                                        |x |
 
 ## Request headers
